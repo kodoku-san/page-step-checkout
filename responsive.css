@@ -1,0 +1,202 @@
+@media (min-width: 1024px) and (max-width: 1239px) { 
+    .checkout-detail__ship-box {
+        padding: 20px 15px 1px;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .checkout-detail__foot {
+        display: unset;
+    }
+    .checkout-detail__ship-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .checkout-details {
+        margin-right: unset;
+        margin-bottom: 30px;
+    }
+    .checkout-head__input {
+        top: 40px;
+        right: 0;
+    }
+    .checkout-head__btn.search.active ~ .checkout-head__input {
+        padding-left: unset;
+        padding-left: 10px;
+        width: 100%;
+        right: 0;
+        top: 44px;
+    }
+}
+
+@media (max-width: 740px) {
+    .checkout-detail__foot {
+        display: unset;
+    }
+    .checkout-detail__ship-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .checkout-details {
+        margin-right: unset;
+        margin-bottom: 30px;
+    }
+    .checkout-head__item {
+        display: none;
+    }
+    .checkout-head__btn i {
+        font-weight: bold;
+    }
+    .checkout-order__place {
+        width: 100%;
+    }
+    .checkout-head__btn.search.active input.checkout-head__input {
+        position: fixed;
+    }
+    .checkout-head__input {
+        top: 40px;
+        right: 0;
+    }
+    .checkout-head__btn.search.active ~ .checkout-head__input {
+        padding-left: unset;
+        padding-left: 10px;
+        width: 100%;
+        right: 0;
+        top: 44px;
+    }
+    .checkout-head__btn.more {
+        display: block;
+    }
+    .checkout-menu__mobile {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #f4d289;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        transition: 0.2s ease;
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    .checkout-menu__mobile.active {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    .checkout-menu__mobile-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 28px;
+        font-weight: bold;
+        color: #ffffff;
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid;
+    }
+    .checkout-menu__mobile-list {
+        list-style: none;
+    }
+    .checkout-menu__mobile-item {
+        padding: 10px 0;
+    }
+    .checkout-menu__mobile-link {
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+    }
+    .checkout-menu__mobile-foot {
+        margin-top: auto;
+    }
+    #darkmode {
+        position: fixed;
+        bottom: 20px;
+        right: 16px;
+        z-index: 1;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+        box-shadow: 0 0 10px rgb(0 0 0 / 52%);
+    }
+}
+
+@media (max-width: 580px) {
+    .checkout-detail__ship-select {
+        margin: 0 8px 20px 0;
+    }
+    .checkout-detail__ship-select img {
+        width: 60px;
+        height: 60px;
+    }
+    .checkout-detail__ship-context {
+        margin-left: 6px;
+    }
+    .checkout-detail__ship-price {
+        font-size: 14px;
+    }
+    .container {
+        padding: 40px 10px;
+    }
+
+}
+
+@media (max-width: 496px) {
+    .checkout-order__pay {
+        flex-direction: column;
+    }
+    .checkout-order__pay-card {
+        margin-right: unset;
+        width: 75%;
+    }
+    .checkout-order__detail {
+        margin-top: 24px;
+        width: 75%;
+    }
+    .checkout-order__product {
+        flex-direction: column;
+        align-items: center;
+    }
+    .checkout-order__product-box img {
+        width: 75%;
+        height: 75%;
+    }
+    .checkout-order__product-box {
+        margin-bottom: 4px;
+    }
+    .checkout-detail__bill-box {
+        padding: 10px;
+    }
+    .checkout-detail__bill-info img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 420px) {
+    .checkout-order__product-box img {
+        width: 100%;
+        height: 100%;
+    }
+    .checkout-order__pay-card {
+        width: 100%;
+    }
+    .checkout-order__detail {
+        width: 100%;
+    }
+    .checkout-detail__ship-select {
+        flex-direction: column;
+    }
+    .checkout-detail__ship-context {
+        margin-left: unset;
+        text-align: center;
+        margin-top: 4px;
+    }
+}
