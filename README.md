@@ -4,6 +4,4 @@
 - Dark theme <br>
 ![demo1](https://i.ibb.co/Nr1PYW8/screencapture-file-C-Users-Asus-Desktop-F8-learning-JS-step-Checkout-index-html-2021-12-22-13-29-36.png)
 - Mobile <br>
-![demo2](https://i.ibb.co/QJVPzFV/screencapture-file-C-Users-Asus-Desktop-F8-learning-JS-step-Checkout-index-html-2021-12-22-13-32-32.png)
-- Mobile (dark) <br>
-![demo3](https://i.ibb.co/sgFsFRL/screencapture-file-C-Users-Asus-Desktop-F8-learning-JS-step-Checkout-index-html-2021-12-22-13-35-05.png)
+![demo2](https://i.ibb.co/sgFsFRL/screencapture-file-C-Users-Asus-Desktop-F8-learning-JS-step-Checkout-index-html-2021-12-22-13-35-05.png)
